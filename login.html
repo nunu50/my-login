@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <form  method="get">
+        <fieldset>
+            <h1>Explore</h1>
+            <label for="name">Username</label>
+            <input type="text" id="name" maxlength="10" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="example@example.com" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" required>
+            <button type="submit" id="btn" onclick="onclick()">Login</button>
+        </fieldset>
+        <div id="greet"></div>
+    </form>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
